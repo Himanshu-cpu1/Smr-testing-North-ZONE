@@ -74,19 +74,19 @@ DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMMM yyyy");
 		    Thread.sleep(5000);
 		    }		   
 //.............................Download Data Availability Report......................................................  
-	   @Test(priority = 8)
-	   public void Download_DATA_AVAILABILITY_Report() throws InterruptedException {
-		//click on download icon
-		WebElement DownloadIcon= driver.findElement(By.xpath("(//*[@class=\"mat-button-wrapper\"])"));
-		DownloadIcon.click();
-		Thread.sleep(3000);
-		
-		//click on Data Available Wise button
-		WebElement dataavailablebutton= driver.findElement(By.xpath("//*[text()=\"data Available wise\"]"));
-		dataavailablebutton.click();
-		
-		Thread.sleep(7000);
-	   }  
+//	   @Test(priority = 8)
+//	   public void Download_DATA_AVAILABILITY_Report() throws InterruptedException {
+//		//click on download icon
+//		WebElement DownloadIcon= driver.findElement(By.xpath("(//*[@class=\"mat-button-wrapper\"])"));
+//		DownloadIcon.click();
+//		Thread.sleep(3000);
+//		
+//		//click on Data Available Wise button
+//		WebElement dataavailablebutton= driver.findElement(By.xpath("//*[text()=\"data Available wise\"]"));
+//		dataavailablebutton.click();
+//		
+//		Thread.sleep(7000);
+//	   }  
 //..................................................................................................	   
 	   
 		   

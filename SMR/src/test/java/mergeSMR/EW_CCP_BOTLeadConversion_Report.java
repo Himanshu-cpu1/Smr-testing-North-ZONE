@@ -96,35 +96,15 @@ public class EW_CCP_BOTLeadConversion_Report {
 
         //click on Select Campaign Name dropdown
         Thread.sleep(3000);
-        WebElement Campaign = driver.findElement(By.xpath("(//*[@role=\"combobox\"])[1]"));
+        WebElement Campaign= driver.findElement(By.xpath("(//*[@role=\"combobox\"])[1]"));
         Campaign.click();
-
+        
         Thread.sleep(3000);
-
+        
         //select Campaign Name- ALL
-        WebElement CampaignName = driver.findElement(By.xpath("//*[text()=\" All\"]"));
+        WebElement CampaignName= driver.findElement(By.xpath("//*[text()=\" All\"]"));
         CampaignName.click();
         Thread.sleep(4000);
-
-        // Click on the calendar to open date picker
-        WebElement select = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[alt=\"calendar\"]")));
-        select.click();
-        Thread.sleep(4000);
-
-        // Select start date (1st of the current month)
-        LocalDate today = LocalDate.now();
-        LocalDate firstDayOfMonth = today.withDayOfMonth(1);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMMM yyyy");
-
-
-        WebElement selectStart = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[aria-label=\"" + firstDayOfMonth.format(formatter) + "\"]")));
-        selectStart.click();
-        Thread.sleep(2000);
-
-        // Select today's date
-        WebElement selectToday = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[aria-label=\"" + today.format(formatter) + "\"]")));
-        selectToday.click();
-        Thread.sleep(2000);
 
         // Click on the generate report button
         WebElement clickOnGenerate = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Generate\"]")));

@@ -33,7 +33,17 @@ public class Service_Due_Analysis_Report {
         this.driver = MarketingCampaign_Report_SMR.driver;
         Thread.sleep(5000);
     }
+    //..................................................................................................
+    @Test(priority = 5)
+    public void Click_On_Report() throws InterruptedException {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement report = wait
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Reports \"]")));
+        report.click();
+        Thread.sleep(3000);
 
+    }
+   
     //..............................................................................................................
     //..................................................................................................
     @Test(priority = 6)

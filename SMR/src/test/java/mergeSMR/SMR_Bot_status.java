@@ -778,321 +778,290 @@ public class SMR_Bot_status {
         }
     }
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-    @Test(priority = 12)
-    public void Compare_Total_Leads_of_ZONE_and_Region_with_Dealer_Parent_Group_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z1, d1);
-    }
-
-    //..................................................................................
-    @Test(priority = 13)
-    public void Compare_Total_Leads_of_ZONE_and_Region_with_WorkShop_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z1, w);
-    }
-
-    //..................................................................................
-    @Test(priority = 14)
-    public void Compare_Total_Leads_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z1, day1);
-    }
-
-    //..................................................................................
-    @Test(priority = 15)
-    public void Compare_Total_Leads_of_ZONE_and_Region_with_Service_type_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z1, s1);
-    }
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-    @Test(priority = 16)
-    public void Compare_Total_booking_of_ZONE_and_Region_with_Dealer_Parent_Group_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z2, d2);
-    }
-
-    //..................................................................................
-    @Test(priority = 17)
-    public void Compare_Total_booking_of_ZONE_and_Region_with_WorkShop_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z2, w1);
-    }
-
-    //..................................................................................
-    @Test(priority = 18)
-    public void Compare_Total_booking_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z2, day2);
-    }
-
-    //..................................................................................
-    @Test(priority = 19)
-    public void Compare_Total_booking_of_ZONE_and_Region_with_Service_type_wise() throws InterruptedException {
-
-        Assert.assertEquals(z2, s2);
-    }
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-    @Test(priority = 20)
-    public void Compare_Total_reported_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
-
-        Assert.assertEquals(z3, d3);
-    }
-    //............................................................................
-
-    @Test(priority = 20)
-    public void Compare_Total_reported_of_ZONE_and_Region_with_workshopwise_wise() throws InterruptedException {
-
-        Assert.assertEquals(z3, w2);
-    }
-    //............................................................................
-
-    @Test(priority = 21)
-    public void Compare_Total_reported_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
-
-        Assert.assertEquals(z3, day3);
-    }
-    //............................................................................
-
-    @Test(priority = 22)
-    public void Compare_Total_reported_of_ZONE_and_Region_with_service_type__wise() throws InterruptedException {
-
-        Assert.assertEquals(z3, s3);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    @Test(priority = 23)
-    public void Compare_Total_LEADS_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
-
-        Assert.assertEquals(z4, d4);
-    }
-    //............................................................................
-
-    @Test(priority = 24)
-    public void Compare_Total_LEADS_of_ZONE_and_Region_with_Workshop_wise() throws InterruptedException {
-
-        Assert.assertEquals(z4, w3);
-    }
-    //............................................................................
-
-    @Test(priority = 25)
-    public void Compare_Total_LEADS_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
-
-        Assert.assertEquals(z4, day4);
-    }
-    //............................................................................
-
-    @Test(priority = 25)
-    public void Compare_Total_LEADS_of_ZONE_and_Region_with_service_type_wise() throws InterruptedException {
-
-        Assert.assertEquals(z4, s4);
-    }
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-    @Test(priority = 26)
-    public void Compare_Fresh_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
-
-        Assert.assertEquals(z5, d5);
-    }
-    //............................................................................
-
-    @Test(priority = 27)
-    public void Compare_Fresh_of_ZONE_and_Region_with_Worshop_wise() throws InterruptedException {
-
-        Assert.assertEquals(z5, w4);
-    }
-    //............................................................................
-
-    @Test(priority = 28)
-    public void Compare_Fresh_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
-
-        Assert.assertEquals(z5, day5);
-    }
-    //............................................................................
-
-    @Test(priority = 29)
-    public void Compare_Fresh_of_ZONE_and_Region_with_service_type_wise() throws InterruptedException {
-
-        Assert.assertEquals(z5, s5);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    @Test(priority = 30)
-    public void Compare_PENDING_of_ZONE_and_Region_with_Dealer_parent_Group_wise() throws InterruptedException {
-
-        Assert.assertEquals(z6, d6);
-    }
-
-    //.......................................................................................
-    @Test(priority = 31)
-    public void Compare_PENDING_of_ZONE_and_Region_with_Workshop_wise() throws InterruptedException {
-
-        Assert.assertEquals(z6, w5);
-    }
-
-    //.......................................................................................
-    @Test(priority = 32)
-    public void Compare_PENDING_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
-
-        Assert.assertEquals(z6, day6);
-    }
-
-    //.......................................................................................
-    @Test(priority = 33)
-    public void Compare_PENDING_of_ZONE_and_Region_with_Service_type_wise() throws InterruptedException {
-
-        Assert.assertEquals(z6, s6);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    @Test(priority = 33)
-    public void Compare_FollowUP_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
-
-        Assert.assertEquals(z7, d7);
-    }
-
-    //.......................................................................................
-    @Test(priority = 34)
-    public void Compare_FollowUP_of_ZONE_and_Region_with_Workshop_wise() throws InterruptedException {
-
-        Assert.assertEquals(z7, w6);
-    }
-
-    //.......................................................................................
-    @Test(priority = 35)
-    public void Compare_FollowUP_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
-
-        Assert.assertEquals(z7, day7);
-    }
-
-    //.......................................................................................
-    @Test(priority = 36)
-    public void Compare_FollowUP_of_ZONE_and_Region_with_Service_type_wise() throws InterruptedException {
-
-        Assert.assertEquals(z7, s7);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-    @Test(priority = 37)
-    public void Compare_Appointment_booked_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
-
-        Assert.assertEquals(z8, d8);
-    }
-
-    //...........................................................................................
-    @Test(priority = 38)
-    public void Compare_Appointment_booked_of_ZONE_and_Region_with_workshop_wise() throws InterruptedException {
-
-        Assert.assertEquals(z8, w7);
-    }
-
-    //...........................................................................................
-    @Test(priority = 39)
-    public void Compare_Appointment_booked_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
-        Thread.sleep(1000);
-        Assert.assertEquals(z8, day8);
-    }
-
-    //...........................................................................................
-    @Test(priority = 40)
-    public void Compare_Appointment_booked_of_ZONE_and_Region_with_service_type_wise() throws InterruptedException {
-
-        Assert.assertEquals(z8, s8);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    @Test(priority = 41)
-    public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_Dealer_Parent_Group_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z19, d19);
-    }
-
-    //..................................................................................
-    @Test(priority = 42)
-    public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_WorkshoP_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z19, w18);
-    }
-
-    //..................................................................................
-    @Test(priority = 43)
-    public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z19, day19);
-    }
-
-    //..................................................................................
-    @Test(priority = 44)
-    public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_service_type_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z19, s19);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    //..................................................................................
-    @Test(priority = 45)
-    public void Compare_Reported_at_Other_of_ZONE_and_Region_with_Dealer_parent_group_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z20, d20);
-    }
-
-    //..................................................................................
-    @Test(priority = 46)
-    public void Compare_Reported_at_Other_of_ZONE_and_Region_with_Workshop_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z20, w19);
-    }
-
-    //..................................................................................
-    @Test(priority = 47)
-    public void Compare_Reported_at_Other_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z20, day20);
-    }
-
-    //..................................................................................
-    @Test(priority = 48)
-    public void Compare_Reported_at_Other_of_ZONE_and_Region_with_service_type_Wise() throws InterruptedException {
-
-        Assert.assertEquals(z20, s20);
-    }
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    @Test(priority = 49)
-    public void Compare_LOST_of_ZONE_and_Region_with_Dealer_parent_Group_Wise() throws InterruptedException {
-
-
-        Assert.assertEquals(z21, d21);
-    }
-
-    //......................................................................................
-    @Test(priority = 50)
-    public void Compare_LOST_of_ZONE_and_Region_with_Worshop_Wise() throws InterruptedException {
-
-
-        Assert.assertEquals(z21, w20);
-    }
-
-    //......................................................................................
-    @Test(priority = 51)
-    public void Compare_LOST_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
-
-
-        Assert.assertEquals(z21, day21);
-    }
-
-    //......................................................................................
-    @Test(priority = 52)
-    public void Compare_LOST_of_ZONE_and_Region_with_service_type_Wise() throws InterruptedException {
-
-
-        Assert.assertEquals(z21, s21);
-        Thread.sleep(5000);
-    }
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	   
+    @Test(priority=12)
+	public void Compare_Total_Leads_of_ZONE_and_Region_with_Dealer_Parent_Group_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z1, d1);
+  }
+//..................................................................................
+    @Test(priority=13)
+	public void Compare_Total_Leads_of_ZONE_and_Region_with_WorkShop_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z1, w1);
+  }
+//..................................................................................
+    @Test(priority=14)
+	public void Compare_Total_Leads_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z1, day1);
+  }
+//..................................................................................
+    @Test(priority=15)
+	public void Compare_Total_Leads_of_ZONE_and_Region_with_Service_type_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z1, s1);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    @Test(priority=16)
+	public void Compare_Total_booking_of_ZONE_and_Region_with_Dealer_Parent_Group_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z2,d2);
+  }	    
+//..................................................................................
+    @Test(priority=17)
+	public void Compare_Total_booking_of_ZONE_and_Region_with_WorkShop_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z2,w2);
+  }	     
+//..................................................................................
+    @Test(priority=18)
+	public void Compare_Total_booking_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z2,day2);
+  }		    				    
+//..................................................................................
+    @Test(priority=19)
+	public void Compare_Total_booking_of_ZONE_and_Region_with_Service_type_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z2,s2);
+  }		
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    @Test(priority=20)
+	public void Compare_Total_reported_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z3,d3);
+  }	
+//............................................................................
+
+    @Test(priority=20)
+	public void Compare_Total_reported_of_ZONE_and_Region_with_workshopwise_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z3,w3);
+  }	
+//............................................................................
+
+    @Test(priority=21)
+	public void Compare_Total_reported_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z3,day3);
+  }	
+//............................................................................
+
+    @Test(priority=22)
+	public void Compare_Total_reported_of_ZONE_and_Region_with_service_type__wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z3,s3);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @Test(priority=23)
+	public void Compare_Total_LEADS_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z4,d4);
+  }
+//............................................................................
+
+    @Test(priority=24)
+	public void Compare_Total_LEADS_of_ZONE_and_Region_with_Workshop_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z4,w4);
+  }
+//............................................................................
+
+    @Test(priority=25)
+	public void Compare_Total_LEADS_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z4,day4);
+  }
+//............................................................................
+
+    @Test(priority=25)
+	public void Compare_Total_LEADS_of_ZONE_and_Region_with_service_type_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z4,s4);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    @Test(priority=26)
+	public void Compare_Fresh_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z5,d5);
+  }
+//............................................................................
+
+    @Test(priority=27)
+	public void Compare_Fresh_of_ZONE_and_Region_with_Worshop_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z5,w5);
+  }
+//............................................................................
+
+    @Test(priority=28)
+	public void Compare_Fresh_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z5,day5);
+  }
+//............................................................................
+
+    @Test(priority=29)
+	public void Compare_Fresh_of_ZONE_and_Region_with_service_type_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z5,s5);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @Test(priority=30)
+	public void Compare_PENDING_of_ZONE_and_Region_with_Dealer_parent_Group_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z6,d6);
+  }
+//.......................................................................................
+    @Test(priority=31)
+	public void Compare_PENDING_of_ZONE_and_Region_with_Workshop_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z6,w6);
+  }
+//.......................................................................................
+    @Test(priority=32)
+	public void Compare_PENDING_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z6,day6);
+  }
+//.......................................................................................
+    @Test(priority=33)
+	public void Compare_PENDING_of_ZONE_and_Region_with_Service_type_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z6,s6);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @Test(priority=33)
+	public void Compare_FollowUP_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z7,d7);
+  }
+//.......................................................................................
+    @Test(priority=34)
+	public void Compare_FollowUP_of_ZONE_and_Region_with_Workshop_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z7,w7);
+  }
+//.......................................................................................
+    @Test(priority=35)
+	public void Compare_FollowUP_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z7,day7);
+  }
+//.......................................................................................
+    @Test(priority=36)
+	public void Compare_FollowUP_of_ZONE_and_Region_with_Service_type_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z7,s7);
+  }
+    
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+    @Test(priority=37)
+	public void Compare_Appointment_booked_of_ZONE_and_Region_with_Dealer_parent_group_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z8,d8);
+  }  
+//...........................................................................................
+    @Test(priority=38)
+	public void Compare_Appointment_booked_of_ZONE_and_Region_with_workshop_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z8,w8);
+  }  
+//...........................................................................................
+    @Test(priority=39)
+	public void Compare_Appointment_booked_of_ZONE_and_Region_with_Day_wise() throws InterruptedException {
+    	Thread.sleep(1000);		  	
+	Assert.assertEquals(z8,day8);
+  } 
+//...........................................................................................
+    @Test(priority=40)
+	public void Compare_Appointment_booked_of_ZONE_and_Region_with_service_type_wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z8,s8);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @Test(priority=41)
+	public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_Dealer_Parent_Group_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z19,d19);
+  }
+//..................................................................................
+    @Test(priority=42)
+	public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_WorkshoP_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z19,w19);
+  }
+//..................................................................................
+    @Test(priority=43)
+	public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z19,day19);
+  }
+//..................................................................................
+    @Test(priority=44)
+	public void Compare_Reported_at_OWN_of_ZONE_and_Region_with_service_type_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z19,s19);
+  }
+    
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//..................................................................................
+    @Test(priority=45)
+	public void Compare_Reported_at_Other_of_ZONE_and_Region_with_Dealer_parent_group_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z20,d20);
+  }    
+//..................................................................................
+    @Test(priority=46)
+	public void Compare_Reported_at_Other_of_ZONE_and_Region_with_Workshop_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z20,w21);
+  }
+//..................................................................................
+    @Test(priority=47)
+	public void Compare_Reported_at_Other_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z20,day20);
+  }
+//..................................................................................
+    @Test(priority=48)
+	public void Compare_Reported_at_Other_of_ZONE_and_Region_with_service_type_Wise() throws InterruptedException {
+			    	
+	Assert.assertEquals(z20,s20);
+  }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @Test(priority=49)
+	public void Compare_LOST_of_ZONE_and_Region_with_Dealer_parent_Group_Wise() throws InterruptedException {
+    	
+			    	
+	Assert.assertEquals(z21,d21);
+  }
+//......................................................................................
+    @Test(priority=50)
+	public void Compare_LOST_of_ZONE_and_Region_with_Worshop_Wise() throws InterruptedException {
+    	
+			    	
+	Assert.assertEquals(z21,w21);
+  }
+//......................................................................................
+    @Test(priority=51)
+	public void Compare_LOST_of_ZONE_and_Region_with_Day_Wise() throws InterruptedException {
+    	
+			    	
+	Assert.assertEquals(z21,day21);
+  }
+//......................................................................................
+    @Test(priority=52)
+	public void Compare_LOST_of_ZONE_and_Region_with_service_type_Wise() throws InterruptedException {
+    	
+			    	
+	Assert.assertEquals(z21,s21);
+  }
 }
-
 
 

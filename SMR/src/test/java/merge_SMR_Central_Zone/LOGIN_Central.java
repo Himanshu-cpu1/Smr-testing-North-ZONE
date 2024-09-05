@@ -1,4 +1,4 @@
-package mergeSMR;
+package merge_SMR_Central_Zone;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LOGIN {
+public class LOGIN_Central {
 
     public static WebDriver driver;
     public WebDriverWait wait;
@@ -39,7 +39,7 @@ public class LOGIN {
     public void Username() throws InterruptedException {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement Username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
-        Username.sendKeys("North2RSM00001");
+        Username.sendKeys("ZSHArenaC00001");
 
         Thread.sleep(2000);
     }
@@ -50,7 +50,7 @@ public class LOGIN {
     public void Password() throws InterruptedException {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
-        password.sendKeys("MarutiCNM#@123");
+        password.sendKeys("Aynjwjq@1");
                
           Thread.sleep(3000);
 	    	    
@@ -91,5 +91,5 @@ public class LOGIN {
 
 
     }
-
+   
 }

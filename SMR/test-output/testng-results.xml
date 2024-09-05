@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="94" passed="91" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T15:06:35 IST" name="Default suite" finished-at="2024-09-05T15:10:50 IST" duration-ms="255005">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T15:06:35 IST" name="Default test" finished-at="2024-09-05T15:10:50 IST" duration-ms="255005">
+      <class name="merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR">
+        <test-method is-config="true" signature="setup()[pri:0, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:06:35 IST" name="setup" finished-at="2024-09-05T15:06:44 IST" duration-ms="9284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Username()[pri:1, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:06:45 IST" name="Username" finished-at="2024-09-05T15:06:47 IST" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:2, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:06:47 IST" name="Password" finished-at="2024-09-05T15:06:50 IST" duration-ms="3339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Captcha()[pri:3, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:06:50 IST" name="Captcha" finished-at="2024-09-05T15:06:53 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Captcha -->
+        <test-method signature="SUBMIT_Button()[pri:4, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:06:53 IST" name="SUBMIT_Button" finished-at="2024-09-05T15:07:14 IST" duration-ms="20131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SUBMIT_Button -->
+        <test-method signature="Click_On_Report()[pri:5, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:07:14 IST" name="Click_On_Report" finished-at="2024-09-05T15:07:18 IST" duration-ms="4549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Report -->
+        <test-method signature="Click_On_HYPERLOCAL_STATUS_REPORT()[pri:6, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:07:18 IST" name="Click_On_HYPERLOCAL_STATUS_REPORT" finished-at="2024-09-05T15:07:22 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_HYPERLOCAL_STATUS_REPORT -->
+        <test-method signature="Zone_And_Region_Wise_Tab()[pri:7, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:07:22 IST" name="Zone_And_Region_Wise_Tab" finished-at="2024-09-05T15:08:11 IST" duration-ms="48583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zone_And_Region_Wise_Tab -->
+        <test-method signature="Dealer_Parent_Group_Wise_Tab()[pri:8, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:08:11 IST" name="Dealer_Parent_Group_Wise_Tab" finished-at="2024-09-05T15:08:45 IST" duration-ms="33964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dealer_Parent_Group_Wise_Tab -->
+        <test-method signature="WorkShop_Wise_Tab()[pri:9, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:08:45 IST" name="WorkShop_Wise_Tab" finished-at="2024-09-05T15:09:48 IST" duration-ms="63511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkShop_Wise_Tab -->
+        <test-method signature="Day_Wise_Tab()[pri:10, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:09:48 IST" name="Day_Wise_Tab" finished-at="2024-09-05T15:10:44 IST" duration-ms="55482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day_Wise_Tab -->
+        <test-method signature="Compare_LeadGenerated_Column_ZoneRegionWise_With_DealerParentWise()[pri:12, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_LeadGenerated_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadGenerated_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_LeadAttempted_Column_ZoneRegionWise_With_DealerParentWise()[pri:13, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_LeadAttempted_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadAttempted_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_FollowUp_Column_ZoneRegionWise_With_DealerParentWise()[pri:14, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_FollowUp_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_FollowUp_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_TotalConnected_Column_ZoneRegionWise_With_DealerParentWise()[pri:15, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_TotalConnected_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalConnected_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_RegNoConfirmed_Column_ZoneRegionWise_With_DealerParentWise()[pri:16, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_RegNoConfirmed_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoConfirmed_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_DealerParentWise()[pri:17, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_AppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise()[pri:18, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_AppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_AppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise()[pri:19, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_TotalReported_Column_ZoneRegionWise_With_DealerParentWise()[pri:20, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_TotalReported_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalReported_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_PercentReported_Column_ZoneRegionWise_With_DealerParentWise()[pri:21, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_PercentReported_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [14.64%] but found [14.63587921847247%]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [14.64%] but found [14.63587921847247%]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR.Compare_PercentReported_Column_ZoneRegionWise_With_DealerParentWise(HyperLocal_Status_Report_SMR.java:637)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentReported_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_ReportedAtOwn_Column_ZoneRegionWise_With_DealerParentWise()[pri:22, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_ReportedAtOwn_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOwn_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_ReportedAtOther_Column_ZoneRegionWise_With_DealerParentWise()[pri:23, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:44 IST" name="Compare_ReportedAtOther_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOther_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_NotConnected_Column_ZoneRegionWise_With_DealerParentWise()[pri:24, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotConnected_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotConnected_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_NotAttempted_Column_ZoneRegionWise_With_DealerParentWise()[pri:25, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotAttempted_Column_ZoneRegionWise_With_DealerParentWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotAttempted_Column_ZoneRegionWise_With_DealerParentWise -->
+        <test-method signature="Compare_LeadGenerated_Column_ZoneRegionWise_With_WorkshopWise()[pri:26, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadGenerated_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadGenerated_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_LeadAttempted_Column_ZoneRegionWise_With_WorkshopWise()[pri:27, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadAttempted_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadAttempted_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_FollowUp_Column_ZoneRegionWise_With_WorkshopWise()[pri:28, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_FollowUp_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_FollowUp_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_TotalConnected_Column_ZoneRegionWise_With_WorkshopWise()[pri:29, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalConnected_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalConnected_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_RegNoConfirmed_Column_ZoneRegionWise_With_WorkshopWise()[pri:30, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoConfirmed_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoConfirmed_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_WorkshopWise()[pri:31, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_AppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise()[pri:32, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_AppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_AppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise()[pri:33, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_TotalReported_Column_ZoneRegionWise_With_WorkshopWise()[pri:34, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalReported_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalReported_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_PercentReported_Column_ZoneRegionWise_With_WorkshopWise()[pri:35, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentReported_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [14.64%] but found [14.63587921847247%]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [14.64%] but found [14.63587921847247%]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR.Compare_PercentReported_Column_ZoneRegionWise_With_WorkshopWise(HyperLocal_Status_Report_SMR.java:738)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentReported_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_ReportedAtOwn_Column_ZoneRegionWise_With_WorkshopWise()[pri:36, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOwn_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOwn_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_ReportedAtOther_Column_ZoneRegionWise_With_WorkshopWise()[pri:37, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOther_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOther_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_NotConnected_Column_ZoneRegionWise_With_WorkshopWise()[pri:38, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotConnected_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotConnected_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_NotAttempted_Column_ZoneRegionWise_With_WorkshopWise()[pri:39, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotAttempted_Column_ZoneRegionWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotAttempted_Column_ZoneRegionWise_With_WorkshopWise -->
+        <test-method signature="Compare_LeadGenerated_Column_ZoneRegionWise_With_DayWise()[pri:40, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadGenerated_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadGenerated_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_LeadAttempted_Column_ZoneRegionWise_With_DayWise()[pri:41, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadAttempted_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadAttempted_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_FollowUp_Column_ZoneRegionWise_With_DayWise()[pri:42, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_FollowUp_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_FollowUp_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_TotalConnected_Column_ZoneRegionWise_With_DayWise()[pri:43, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalConnected_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalConnected_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_RegNoConfirmed_Column_ZoneRegionWise_With_DayWise()[pri:44, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoConfirmed_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoConfirmed_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_DayWise()[pri:45, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoNotConfirmed_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_AppointmentBooked_Column_ZoneRegionWise_With_DayWise()[pri:46, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_AppointmentBooked_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_AppointmentBooked_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DayWise()[pri:47, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_TotalReported_Column_ZoneRegionWise_With_DayWise()[pri:48, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalReported_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalReported_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_PercentReported_Column_ZoneRegionWise_With_DayWise()[pri:49, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentReported_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [14.64%] but found [14.63587921847247%]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [14.64%] but found [14.63587921847247%]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR.Compare_PercentReported_Column_ZoneRegionWise_With_DayWise(HyperLocal_Status_Report_SMR.java:838)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentReported_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_ReportedAtOwn_Column_ZoneRegionWise_With_DayWise()[pri:50, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOwn_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOwn_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_ReportedAtOthers_Column_ZoneRegionWise_With_DayWise()[pri:51, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOthers_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOthers_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_NotConnected_Column_ZoneRegionWise_With_DayWise()[pri:52, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotConnected_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotConnected_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_NotAttempted_Column_ZoneRegionWise_With_DayWise()[pri:53, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotAttempted_Column_ZoneRegionWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotAttempted_Column_ZoneRegionWise_With_DayWise -->
+        <test-method signature="Compare_LeadGenerated_Column_DealerParentWise_With_WorkshopWise()[pri:54, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadGenerated_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadGenerated_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_LeadAttempted_Column_DealerParentWise_With_WorkshopWise()[pri:55, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadAttempted_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadAttempted_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_FollowUp_Column_DealerParentWise_With_WorkshopWise()[pri:56, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_FollowUp_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_FollowUp_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_TotalConnected_Column_DealerParentWise_With_WorkshopWise()[pri:57, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalConnected_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalConnected_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_RegNoConfirmed_Column_DealerParentWise_With_WorkshopWise()[pri:58, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoConfirmed_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoConfirmed_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_RegNoNotConfirmed_Column_DealerParentWise_With_WorkshopWise()[pri:59, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoNotConfirmed_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoNotConfirmed_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_AppointmentBooked_Column_DealerParentWise_With_WorkshopWise()[pri:60, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_AppointmentBooked_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_AppointmentBooked_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_PercentAppointmentBooked_Column_DealerParentWise_With_WorkshopWise()[pri:61, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentAppointmentBooked_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentAppointmentBooked_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_TotalReported_Column_DealerParentWise_With_WorkshopWise()[pri:62, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalReported_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalReported_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_PercentReported_Column_DealerParentWise_With_WorkshopWise()[pri:63, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentReported_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentReported_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_ReportedAtOwn_Column_DealerParentWise_With_WorkshopWise()[pri:64, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOwn_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOwn_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_ReportedAtOthers_Column_DealerParentWise_With_WorkshopWise()[pri:65, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOthers_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOthers_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_NotConnected_Column_DealerParentWise_With_WorkshopWise()[pri:66, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotConnected_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotConnected_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_NotAttempted_Column_DealerParentWise_With_WorkshopWise()[pri:67, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotAttempted_Column_DealerParentWise_With_WorkshopWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotAttempted_Column_DealerParentWise_With_WorkshopWise -->
+        <test-method signature="Compare_LeadGenerated_Column_DealerParentWise_With_DayWise()[pri:68, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadGenerated_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadGenerated_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_LeadAttempted_Column_DealerParentWise_With_DayWise()[pri:69, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadAttempted_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadAttempted_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_FollowUp_Column_DealerParentWise_With_DayWise()[pri:70, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_FollowUp_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_FollowUp_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_TotalConnected_Column_DealerParentWise_With_DayWise()[pri:71, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalConnected_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalConnected_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_RegNoConfirmed_Column_DealerParentWise_With_DayWise()[pri:72, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoConfirmed_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoConfirmed_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_RegNoNotConfirmed_Column_DealerParentWise_With_DayWise()[pri:73, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoNotConfirmed_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoNotConfirmed_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_AppointmentBooked_Column_DealerParentWise_With_DayWise()[pri:74, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_AppointmentBooked_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_AppointmentBooked_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_PercentAppointmentBooked_Column_DealerParentWise_With_DayWise()[pri:75, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentAppointmentBooked_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentAppointmentBooked_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_TotalReported_Column_DealerParentWise_With_DayWise()[pri:76, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalReported_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalReported_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_PercentReported_Column_DealerParentWise_With_DayWise()[pri:77, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentReported_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentReported_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_ReportedAtOwn_Column_DealerParentWise_With_DayWise()[pri:78, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOwn_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOwn_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_ReportedAtOther_Column_DealerParentWise_With_DayWise()[pri:79, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOther_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOther_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_NotConnected_Column_DealerParentWise_With_DayWise()[pri:80, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotConnected_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotConnected_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_NotAttempted_Column_DealerParentWise_With_DayWise()[pri:81, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotAttempted_Column_DealerParentWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotAttempted_Column_DealerParentWise_With_DayWise -->
+        <test-method signature="Compare_LeadGenerated_Column_WorkshopWise_With_DayWise()[pri:82, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadGenerated_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadGenerated_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_LeadAttempted_Column_WorkshopWise_With_DayWise()[pri:83, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_LeadAttempted_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_LeadAttempted_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_FollowUp_Column_WorkshopWise_With_DayWise()[pri:84, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_FollowUp_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_FollowUp_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_TotalConnected_Column_WorkshopWise_With_DayWise()[pri:85, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalConnected_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalConnected_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_RegNoConfirmed_Column_WorkshopWise_With_DayWise()[pri:86, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoConfirmed_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoConfirmed_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_RegNoNotConfirmed_Column_WorkshopWise_With_DayWise()[pri:87, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_RegNoNotConfirmed_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_RegNoNotConfirmed_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_AppointmentBooked_Column_WorkshopWise_With_DayWise()[pri:88, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_AppointmentBooked_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_AppointmentBooked_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_PercentAppointmentBooked_Column_WorkshopWise_With_DayWise()[pri:89, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentAppointmentBooked_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentAppointmentBooked_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_TotalReported_Column_WorkshopWise_With_DayWise()[pri:90, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_TotalReported_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_TotalReported_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_PercentReported_Column_WorkshopWise_With_DayWise()[pri:91, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_PercentReported_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_PercentReported_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_ReportedAtOwn_Column_WorkshopWise_With_DayWise()[pri:92, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOwn_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOwn_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_ReportedAtOther_Column_WorkshopWise_With_DayWise()[pri:93, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_ReportedAtOther_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_ReportedAtOther_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_NotConnected_Column_WorkshopWise_With_DayWise()[pri:94, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotConnected_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotConnected_Column_WorkshopWise_With_DayWise -->
+        <test-method signature="Compare_NotAttempted_Column_WorkshopWise_With_DayWise()[pri:95, instance:merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR@3e694b3f]" started-at="2024-09-05T15:10:46 IST" name="Compare_NotAttempted_Column_WorkshopWise_With_DayWise" finished-at="2024-09-05T15:10:50 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_NotAttempted_Column_WorkshopWise_With_DayWise -->
+      </class> <!-- merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
