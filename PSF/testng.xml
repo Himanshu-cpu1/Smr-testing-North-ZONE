@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="rsm.BOT_status_Demo"/>
+      <class name="rsm.SMR_Bot_status"/>
+      <class name="pSF_DEMO.DEMo_Dev_all"/>
+      <class name="alll_folder_PSF.PSFFollowUpList_Filters_And_Tabs"/>
+      <class name="example8939983.Psf"/>
+      <class name="psf.PSFF"/>
+      <class name="pSF_DEMO.EXAMPLE"/>
+      <class name="rsm.RSM"/>
+      <class name="pSF_DEMO.DemoALL_prod_P_S_F"/>
+      <class name="PSF_FollowUp_List_Filters.TechnicianName_Demo_FollowUpList"/>
+      <class name="rsm.SMR_Due_Date_Wise"/>
+      <class name="rsm.RSMDEmo"/>
+      <class name="prod_PSF_code.All_Filters_PSF_Prod"/>
+      <class name="psf_Complaint_Management.ComplaintManagementPage_Filters_And_Tabs"/>
+      <class name="psf_FollowUp_List.List_Filter_TodayDuePSF_Prod"/>
+      <class name="Dev_Psf_code.All_PSF_Dev_Code"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
