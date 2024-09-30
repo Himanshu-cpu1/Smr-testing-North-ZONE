@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VAHAN">
+	<test name="Excel sheet">
+		<classes>
+			<class name="vahan_DASHBOARD.All_4_Running_States" />
+			<class name="vahan_DASHBOARD.Andaman_Nicobar" />
+			<class name="vahan_DASHBOARD.Andhra_Pradesh" />
+			<class name="vahan_DASHBOARD.Arunachal_Pradesh" />
+			<class name="vahan_DASHBOARD.Assam" />
+			<class name="vahan_DASHBOARD.Bihar" />
+			<class name="vahan_DASHBOARD.Chattisgarh" />
+			<class name="vahan_DASHBOARD.Chandigarh" />
+			<class name="vahan_DASHBOARD.UT_of_DNH" />
+			<class name="vahan_DASHBOARD.Delhi" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

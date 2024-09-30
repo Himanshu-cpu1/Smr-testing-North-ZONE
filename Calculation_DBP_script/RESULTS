@@ -1,0 +1,13 @@
+May 16, 2024 12:19:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 125
+valid msil ID : 76281
+Valid  otp : 5555
+login succesfull    = ( valid Url ) >>>>   https://dev-dbp.msilfintrac.co.in/Dashboard/network-details
+........................STOCKS..........................................
+CALCULATION S_presso [RETAIL SALES # QTY]    VALID  =103832
+CALCULATION S_presso [(margin Amount (Rs.)] is   VALID  =8059911
+CALCULATION S_presso [Total Discount] is   VALID  =295932
+CALCULATION S_presso  (Margin/Car (Rs.) VALID  =78
+CALCULATION S_presso  (DRF/Car (Rs.)) VALID  =2
+CALCULATION S_presso  (Discount/Car (Rs.)) VALID  =3
+.................................................................................

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dbp_all_Test_Cases">
+  <test  name="Regression">
+    <classes>
+      <class name="dBP_Login_ALL.Network_Details"/>
+         <class name="dBP_Login_ALL.STOCKS"/>
+         <class name="dBP_Login_ALL.Discount"/>
+          <class name="dBP_Login_ALL.Intrest_Cost"/>
+          <class name="dBP_Login_ALL.ManpowerCount_TestNG"/>
+          <class name="dBP_Login_ALL.ManpowerCost_TestNG"/>
+          <class name="dBP_Login_ALL.New_Car_TestNG"/>
+          <class name="dBP_Login_ALL.MDS"/>
+          <class name="dBP_Login_ALL.Maruti_Insurance"/>
+          <class name="dBP_Login_ALL.MSGA"/>
+          <class name="dBP_Login_ALL.True_value"/>
+          <class name="dBP_Login_ALL.Spares"/>
+          <class name="dBP_Login_ALL.SERVICE"/> 
+           <class name="dBP_Login_ALL.Common_Expense_TestNG"/>   
+          <class name="dBP_Login_ALL.KEy_Financials"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

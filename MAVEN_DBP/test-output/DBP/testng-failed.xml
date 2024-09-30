@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DBP]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="dbp_Login_Extends.MDS">
+        <methods>
+          <include name="mds"/>
+          <include name="Save_the_Data"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- dbp_Login_Extends.MDS -->
+      <class name="dbp_Login_Extends.KEy_Financials">
+        <methods>
+          <include name="Services"/>
+          <include name="Setup"/>
+          <include name="Save_the_Data"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dbp_Login_Extends.KEy_Financials -->
+      <class name="dbp_Login_Extends.SERVICE">
+        <methods>
+          <include name="Setup"/>
+          <include name="Paid_AND_Running_Repairs_Load____QTY"/>
+          <include name="Services"/>
+          <include name="Clear_Data"/>
+          <include name="Short_Term_Interest_Cost_Service_MAtches_from__IntrestCost_Modules"/>
+          <include name="Manpower_Cost_MAtches_from__total_manpowercost"/>
+          <include name="Click_on_NewCars"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dbp_Login_Extends.SERVICE -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [DBP] -->

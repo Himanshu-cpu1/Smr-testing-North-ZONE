@@ -1,0 +1,964 @@
+<html>
+<head>
+<title>TestNG:  Stock</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Stock</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>177/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 21 14:47:48 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48062 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Per_Cars()'><b>DRF_Per_Cars</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__SWIFT()'><b>CAlCULATION_OF_Margin_Per_Cars_In__SWIFT</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_Brezza()'><b>Closing_stock_Qty_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_Dzire()'><b>Retail_sales_Amount_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_ERTIGA()'><b>Opening_Stock_Amount_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__EECO()'><b>CAlCULATION_OF_discount_Per_Cars_In__EECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__ERTIGA()'><b>CAlCULATION_OF_discount_Per_Cars_In__ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_SuperCarry()'><b>DRF_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_Wagon_R()'><b>Dealer_Compulsion_Discount_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_ECO()'><b>Dealer_Compulsion_Discount_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_Wagon_R()'><b>Closing_stock_Qty_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__WAGON_R()'><b>CAlCULATION_OF_discount_Per_Cars_In__WAGON_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_ERTIGA()'><b>WholeSale_Amount_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_AltoK10()'><b>Closing_stock_Amount_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_ECO()'><b>Opening_Stock_Amount_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_Swift()'><b>Opening_Stock_Amount_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Opening_stock_QTY()'><b>TOTAL_Opening_stock_QTY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_WAGON_R()'><b>CAlCULATION_OF_margin_Amount_In_WAGON_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__Spresso()'><b>CAlCULATION_OF_DRF_Per_Cars_In__Spresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__Celerio()'><b>CAlCULATION_OF_discount_Per_Cars_In__Celerio</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_DZIRE()'><b>CAlCULATION_OF_margin_Amount_In_DZIRE</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Discount_Per_Cars()'><b>Discount_Per_Cars</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_AltoK10()'><b>WholeSale_Qty_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_AltoK10()'><b>WholeSale_Amount_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_SUPER_CARRY()'><b>CAlCULATION_OF_margin_Amount_In_SUPER_CARRY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_AltoK10()'><b>Opening_Stock_Amount_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_SuperCarry()'><b>WholeSale_Amount_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_Brezza()'><b>Opening_Stock__Qty_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_BREZZA()'><b>CAlCULATION_OF_margin_Amount_In_BREZZA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_Dzire()'><b>Dealer_Compulsion_Discount_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_S_presso()'><b>DRF_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_CELERIO()'><b>Opening_Stock_Amount_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__Celerio()'><b>CAlCULATION_OF_DRF_Per_Cars_In__Celerio</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_per_Cars_In_ALTO()'><b>CAlCULATION_OF_DRF_per_Cars_In_ALTO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_ECO()'><b>Closing_stock_Amount_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Margin_Amount()'><b>TOTAL_Margin_Amount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Opening_stock_amount()'><b>TOTAL_Opening_stock_amount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__BREZZA()'><b>CAlCULATION_OF_Total_Discount_In__BREZZA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_WholeSale_Amount()'><b>TOTAL_WholeSale_Amount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_AltoK10()'><b>DRF_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_Swift()'><b>Opening_Stock__Qty_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Margin_Per_Cars()'><b>Margin_Per_Cars</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_Brezza()'><b>WholeSale_Qty_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__SWIFT()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__SWIFT</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__Spresso()'><b>CAlCULATION_OF_Margin_Per_Cars_In__Spresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_Wagon_R()'><b>Retail_sales_Amount_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_SuperCarry()'><b>Retail_sales_Amount_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__SUPER_CARRY()'><b>CAlCULATION_OF_DRF_Per_Cars_In__SUPER_CARRY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_Swift()'><b>Retail_sales_Amount_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__EECO()'><b>CAlCULATION_OF_Total_Discount_In__EECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_SuperCarry()'><b>Opening_Stock__Qty_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_SuperCarry()'><b>Opening_Stock_Amount_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_CELERIO()'><b>Closing_stock_Qty_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__Spresso()'><b>CAlCULATION_OF_discount_Per_Cars_In__Spresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__SUPER_CARRY()'><b>CAlCULATION_OF_discount_Per_Cars_In__SUPER_CARRY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_Dzire()'><b>Closing_stock_Qty_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_Brezza()'><b>Closing_stock_Amount_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__Celerio()'><b>CAlCULATION_OF_Margin_Per_Cars_In__Celerio</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_CELERIO()'><b>Dealer_Compulsion_Discount_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__SUPER_CARRY()'><b>CAlCULATION_OF_Margin_Per_Cars_In__SUPER_CARRY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_Dzire()'><b>DRF_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__EECO()'><b>CAlCULATION_OF_Margin_Per_Cars_In__EECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_S_presso()'><b>WholeSale_Amount_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_Brezza()'><b>DRF_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_Dzire()'><b>WholeSale_Qty_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__SWIFT()'><b>CAlCULATION_OF_DRF_Per_Cars_In__SWIFT</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_Spresso()'><b>CAlCULATION_OF_margin_Amount_In_Spresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_DRF()'><b>TOTAL_DRF</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_Wagon_R()'><b>DRF_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_ERTIGA()'><b>WholeSale_Qty_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__BREZZA()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__BREZZA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__ERTIGA()'><b>CAlCULATION_OF_Margin_Per_Cars_In__ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_ERTIGA()'><b>Consumer_Offer_Exchange_Bonus_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_S_presso()'><b>Dealer_Compulsion_Discount_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_Wagon_R()'><b>Opening_Stock_Amount_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__SUPER_CARRY()'><b>CAlCULATION_OF_Total_Discount_In__SUPER_CARRY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_Swift()'><b>WholeSale_Qty_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_S_presso()'><b>Closing_stock_Qty_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__EECO()'><b>CAlCULATION_OF_DRF_Per_Cars_In__EECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_ALTO()'><b>CAlCULATION_OF_margin_Amount_In_ALTO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_In__SUPER_CARRY()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_In__SUPER_CARRY</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_ECO()'><b>Consumer_Offer_Exchange_Bonus_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_Wagon_R()'><b>Closing_stock_Amount_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_Spresso()'><b>Opening_Stock__Qty_Of_Spresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_WholeSale_Qty()'><b>TOTAL_WholeSale_Qty</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Save_the_Data()'><b>Save_the_Data</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>1</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_CELERIO()'><b>DRF_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_Celerio()'><b>CAlCULATION_OF_margin_Amount_In_Celerio</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_Brezza()'><b>WholeSale_Amount_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_Wagon_R()'><b>WholeSale_Qty_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_ECO()'><b>Closing_stock_Qty_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__WAGON_R()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__WAGON_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__DZIRE()'><b>CAlCULATION_OF_discount_Per_Cars_In__DZIRE</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Closing_Stock_amount()'><b>TOTAL_Closing_Stock_amount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Retail_sales_Amount()'><b>TOTAL_Retail_sales_Amount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_S_presso()'><b>WholeSale_Qty_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_Brezza()'><b>Opening_Stock_Amount_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__DZIRE()'><b>CAlCULATION_OF_Total_Discount_In__DZIRE</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_Swift()'><b>Consumer_Offer_Exchange_Bonus_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_S_presso()'><b>Closing_stock_Amount_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_AltoK10()'><b>Dealer_Compulsion_Discount_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_ERTIGA()'><b>Dealer_Compulsion_Discount_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_SuperCarry()'><b>Dealer_Compulsion_Discount_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_CELERIO()'><b>WholeSale_Amount_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Dealer_Compulsion_Discount()'><b>TOTAL_Dealer_Compulsion_Discount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__DZIRE()'><b>CAlCULATION_OF_Margin_Per_Cars_In__DZIRE</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_ERTIGA()'><b>DRF_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_Dzire()'><b>Opening_Stock__Qty_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__DZIRE()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__DZIRE</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_Swift()'><b>Closing_stock_Qty_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Discount()'><b>TOTAL_Discount</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__DZIRE()'><b>CAlCULATION_OF_DRF_Per_Cars_In__DZIRE</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_Dzire()'><b>Consumer_Offer_Exchange_Bonus_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__SPresso()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__SPresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__BREZZA()'><b>CAlCULATION_OF_DRF_Per_Cars_In__BREZZA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_Dzire()'><b>WholeSale_Amount_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__BREZZA()'><b>CAlCULATION_OF_Margin_Per_Cars_In__BREZZA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_Swift()'><b>Closing_stock_Amount_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_AltoK10()'><b>Retail_sales_Amount_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__Celerio()'><b>CAlCULATION_OF_Total_Discount_In__Celerio</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__WAGON_R()'><b>CAlCULATION_OF_Total_Discount_In__WAGON_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_S_presso()'><b>Retail_sales_Amount_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__SWIFT()'><b>CAlCULATION_OF_discount_Per_Cars_In__SWIFT</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_ERTIGA()'><b>Closing_stock_Qty_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_ERTIGA()'><b>Retail_sales_Amount_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_ECO()'><b>WholeSale_Qty_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_per_Cars_In_ALTO()'><b>CAlCULATION_OF_Margin_per_Cars_In_ALTO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_CELERIO()'><b>Opening_Stock__Qty_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_AltoK10()'><b>Closing_stock_Qty_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In_ALTO()'><b>CAlCULATION_OF_Total_Discount_In_ALTO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of_ALTO()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of_ALTO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_ECO()'><b>DRF_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_ERTIGA()'><b>Opening_Stock__Qty_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_ECO()'><b>Retail_sales_Amount_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_SuperCarry()'><b>WholeSale_Qty_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__ERTIGA()'><b>CAlCULATION_OF_DRF_Per_Cars_In__ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_CELERIO()'><b>Retail_sales_Amount_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_DRF_Per_Cars_In__WAGON_R()'><b>CAlCULATION_OF_DRF_Per_Cars_In__WAGON_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_SWIFT()'><b>CAlCULATION_OF_margin_Amount_In_SWIFT</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_Dzire()'><b>Opening_Stock_Amount_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_CELERIO()'><b>Closing_stock_Amount_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__EECO()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__EECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Retail_sales_Qty()'><b>TOTAL_Retail_sales_Qty</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_ECO()'><b>WholeSale_Amount_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_Brezza()'><b>Consumer_Offer_Exchange_Bonus_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_Wagon_R()'><b>WholeSale_Amount_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_Brezza()'><b>Dealer_Compulsion_Discount_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Qty_Of_CELERIO()'><b>WholeSale_Qty_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Retail_sales_Amount_Of_Brezza()'><b>Retail_sales_Amount_Of_Brezza</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.DRF_Of_Swift()'><b>DRF_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__Celerio()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__Celerio</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_SuperCarry()'><b>Closing_stock_Amount_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Discount_Per_Cars_ALTO()'><b>CAlCULATION_OF_Discount_Per_Cars_ALTO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_Wagon_R()'><b>Opening_Stock__Qty_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_Wagon_R()'><b>Consumer_Offer_Exchange_Bonus_Of_Wagon_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Dealer_Compulsion_Discount_Of_Swift()'><b>Dealer_Compulsion_Discount_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Closing_Stock_Qty()'><b>TOTAL_Closing_Stock_Qty</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_AltoK10()'><b>Opening_Stock__Qty_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.TOTAL_Consumer_Offer_ISL_RMK()'><b>TOTAL_Consumer_Offer_ISL_RMK</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_ERTIGA()'><b>CAlCULATION_OF_margin_Amount_In_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__ERTIGA()'><b>CAlCULATION_OF_Total_Discount_In__ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_RETAIL_SALES_QTY_Of__ERTIGA()'><b>CAlCULATION_OF_RETAIL_SALES_QTY_Of__ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock_Amount_Of_S_presso()'><b>Opening_Stock_Amount_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Opening_Stock__Qty_Of_ECO()'><b>Opening_Stock__Qty_Of_ECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_ERTIGA()'><b>Closing_stock_Amount_Of_ERTIGA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Qty_Of_SuperCarry()'><b>Closing_stock_Qty_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_S_presso()'><b>Consumer_Offer_Exchange_Bonus_Of_S_presso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_SuperCarry()'><b>Consumer_Offer_Exchange_Bonus_Of_SuperCarry</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__SWIFT()'><b>CAlCULATION_OF_Total_Discount_In__SWIFT</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_margin_Amount_In_EECO()'><b>CAlCULATION_OF_margin_Amount_In_EECO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Total_Discount_In__Spresso()'><b>CAlCULATION_OF_Total_Discount_In__Spresso</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.WholeSale_Amount_Of_Swift()'><b>WholeSale_Amount_Of_Swift</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_discount_Per_Cars_In__BREZZA()'><b>CAlCULATION_OF_discount_Per_Cars_In__BREZZA</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.CAlCULATION_OF_Margin_Per_Cars_In__WAGON_R()'><b>CAlCULATION_OF_Margin_Per_Cars_In__WAGON_R</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Closing_stock_Amount_Of_Dzire()'><b>Closing_stock_Amount_Of_Dzire</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_CELERIO()'><b>Consumer_Offer_Exchange_Bonus_Of_CELERIO</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+<tr>
+<td title='aLLLogin.Login_STOCKS.Consumer_Offer_Exchange_Bonus_Of_AltoK10()'><b>Consumer_Offer_Exchange_Bonus_Of_AltoK10</b><br>Test class: aLLLogin.Login_STOCKS</td>
+<td></td>
+<td>0</td>
+<td>aLLLogin.Login_STOCKS@3b69e7d1</td></tr>
+</table><p>
+</body>
+</html>

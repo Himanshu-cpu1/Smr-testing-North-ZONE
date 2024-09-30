@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  STATE</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>STATE</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 18 18:00:28 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>749 seconds (749075 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='vAHAN.Arunachal_Pradesh.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Arunachal_Pradesh</td>
+<td></td>
+<td>25</td>
+<td>vAHAN.Arunachal_Pradesh@16293aa2</td></tr>
+<tr>
+<td title='vAHAN.Andhra_Pradesh.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Andhra_Pradesh</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Andhra_Pradesh@7e07db1f</td></tr>
+<tr>
+<td title='vAHAN.Delhi.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Delhi</td>
+<td></td>
+<td>35</td>
+<td>vAHAN.Delhi@49ec71f8</td></tr>
+<tr>
+<td title='vAHAN.UT_of_DNH.parivahan()'><b>parivahan</b><br>Test class: vAHAN.UT_of_DNH</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.UT_of_DNH@35cabb2a</td></tr>
+<tr>
+<td title='vAHAN.Bihar.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Bihar</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Bihar@1189dd52</td></tr>
+<tr>
+<td title='vAHAN.Chandigarh.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Chandigarh</td>
+<td></td>
+<td>25</td>
+<td>vAHAN.Chandigarh@36bc55de</td></tr>
+<tr>
+<td title='vAHAN.Arunachal_Pradesh.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Arunachal_Pradesh</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Arunachal_Pradesh@16293aa2</td></tr>
+<tr>
+<td title='vAHAN.Andhra_Pradesh.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Andhra_Pradesh</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.Andhra_Pradesh@7e07db1f</td></tr>
+<tr>
+<td title='vAHAN.Chattisgarh.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Chattisgarh</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.Chattisgarh@1d2adfbe</td></tr>
+<tr>
+<td title='vAHAN.Assam.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Assam</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Assam@564fabc8</td></tr>
+<tr>
+<td title='vAHAN.Delhi.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Delhi</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.Delhi@49ec71f8</td></tr>
+<tr>
+<td title='vAHAN.Chandigarh.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Chandigarh</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Chandigarh@36bc55de</td></tr>
+<tr>
+<td title='vAHAN.Assam.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Assam</td>
+<td></td>
+<td>25</td>
+<td>vAHAN.Assam@564fabc8</td></tr>
+<tr>
+<td title='vAHAN.Andaman_Nicobar.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Andaman_Nicobar</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Andaman_Nicobar@3a93b025</td></tr>
+<tr>
+<td title='vAHAN.All_4_Running_States.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.All_4_Running_States</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.All_4_Running_States@16d04d3d</td></tr>
+<tr>
+<td title='vAHAN.Chattisgarh.parivahan()'><b>parivahan</b><br>Test class: vAHAN.Chattisgarh</td>
+<td></td>
+<td>34</td>
+<td>vAHAN.Chattisgarh@1d2adfbe</td></tr>
+<tr>
+<td title='vAHAN.Andaman_Nicobar.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Andaman_Nicobar</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.Andaman_Nicobar@3a93b025</td></tr>
+<tr>
+<td title='vAHAN.UT_of_DNH.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.UT_of_DNH</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.UT_of_DNH@35cabb2a</td></tr>
+<tr>
+<td title='vAHAN.Bihar.filterSelection()'><b>filterSelection</b><br>Test class: vAHAN.Bihar</td>
+<td></td>
+<td>26</td>
+<td>vAHAN.Bihar@1189dd52</td></tr>
+<tr>
+<td title='vAHAN.All_4_Running_States.parivahan()'><b>parivahan</b><br>Test class: vAHAN.All_4_Running_States</td>
+<td></td>
+<td>35</td>
+<td>vAHAN.All_4_Running_States@16d04d3d</td></tr>
+</table><p>
+</body>
+</html>

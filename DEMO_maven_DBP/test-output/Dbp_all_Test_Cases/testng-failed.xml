@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dbp_all_Test_Cases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="dBP_Login_ALL.MDS">
+        <methods>
+          <include name="Click_on_NewCars"/>
+          <include name="Per_new_cars__Expense_Of_Manpower_Cost_and_salary_Incentives"/>
+          <include name="Per_new_cars__Expense_Of_Short_term_Interest_Cost"/>
+          <include name="Net_Earning_from_MDS_A_B_of_per_New_Car_Income"/>
+          <include name="mds"/>
+          <include name="Per_new_cars__Income_Of_Any_other_Income"/>
+          <include name="Total_MDS_Direct_Expense_B_of_per_New_cars_Expenses"/>
+          <include name="tearDown"/>
+          <include name="Per_new_cars__Income_Of_MDS_Incentives"/>
+          <include name="Per_New_cars_Expense_Of_Any_other_Expense_MDS_only"/>
+          <include name="Per_new_cars__Income_Of_MDS_Enrollment"/>
+          <include name="Per_New_cars_Expense_Of_Total_MDS_Income_A"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.MDS -->
+      <class name="dBP_Login_ALL.MSGA">
+        <methods>
+          <include name="Cost_of_Goods_Sold__A_B_C_per_new_cars_expense"/>
+          <include name="Incentives_earned_on_Accessories_sales_per_new_car_Income"/>
+          <include name="Short_Term_Interest_Cost_MSGA_Per_new_Car_EXPENSES"/>
+          <include name="Total_MSGA_Income_B_Per_New_Car_Expense"/>
+          <include name="Msga"/>
+          <include name="Any_other_MSGA_Income_per_new_car_Income"/>
+          <include name="TCU_Commission_per_new_car_Income"/>
+          <include name="Total_MSGA_Sales_Per_new_Cars"/>
+          <include name="Click_on_NewCars"/>
+          <include name="Net_earning_from_MSGA_Per_new_CARS_Income"/>
+          <include name="Discount_Bill_discount_Per_NEW_car_Expenses"/>
+          <include name="Any_Other_Expense_MSGA_only__Per_new_Car_EXPENSES"/>
+          <include name="MSGA_Margin_Sales_Cost_of_Goods_Sold_Per_new_cars_Income"/>
+          <include name="tearDown"/>
+          <include name="Manpower_Cost_Salary_AND_Incentive_Per_NEW_car_Expenses"/>
+          <include name="Total_MSGA_Income_A_Per_New_Car_Income"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.MSGA -->
+      <class name="dBP_Login_ALL.New_Car_TestNG">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ClickOn_Manpower_Cost"/>
+          <include name="ManpowerCount"/>
+          <include name="NewCar_Manpower_Cost"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.New_Car_TestNG -->
+      <class name="dBP_Login_ALL.Maruti_Insurance">
+        <methods>
+          <include name="Total_MI_Direct_Expense_B_per_new_Cars_Expenses"/>
+          <include name="Per_New_Car_Expense_Of_Any_other_Expense"/>
+          <include name="Click_on_NewCars"/>
+          <include name="tearDown"/>
+          <include name="Save_the_Data"/>
+          <include name="Per_New_Car_Expense_Of_Short_term_Interest_Cost"/>
+          <include name="Per_new_cars__Income_Of_MDS_Incentives"/>
+          <include name="Per_New_Car_Expense_Of_ManpowerCost_Salary_and_Incentives"/>
+          <include name="MI"/>
+          <include name="Total_MI_Renewal_Income_A_Per_New_Cars_Income"/>
+          <include name="Per_new_cars__Income_Of_Any_other_Income"/>
+          <include name="Net_Earning_MI_Renewal_A_B_Per_New_Cars_Income"/>
+          <include name="Per_new_cars__Income_Of_MDS_Enrollment"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.Maruti_Insurance -->
+      <class name="dBP_Login_ALL.Intrest_Cost">
+        <methods>
+          <include name="Save_the_Data"/>
+          <include name="begin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.Intrest_Cost -->
+      <class name="dBP_Login_ALL.KEy_Financials">
+        <methods>
+          <include name="Services"/>
+          <include name="Save_the_Data"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.KEy_Financials -->
+      <class name="dBP_Login_ALL.True_value">
+        <methods>
+          <include name="Total_POC_Sales_Income_A_per_new_CARS"/>
+          <include name="Click_on_NewCars"/>
+          <include name="tearDown"/>
+          <include name="Total_POC_Sales_Direct_Expense_B_per_new_cars"/>
+          <include name="Any_other_Expense_POC_Sales_only_Per_new_CARS_expenses"/>
+          <include name="Net_Earnings_from_registration_per_New_Car_Income"/>
+          <include name="Hyperlocal_Expense_Per_new_CARS_expenses"/>
+          <include name="Management_Fees_to_MSIL_Per_new_CARS_expenses"/>
+          <include name="Refurbishment_Cost_Per_new_CARS_expenses"/>
+          <include name="Save_the_Data"/>
+          <include name="newcars"/>
+          <include name="Free_Service_Cost_Per_new_CARS_expenses"/>
+          <include name="Advertisement_Marketing_Promotional_Per_new_CARS_expenses"/>
+          <include name="Manpower_Cost_salary_and_Incentives_per_new_cars_Expenses"/>
+          <include name="POC_Sales_Margin_per_New_Car_Income"/>
+          <include name="POC_Sales_Incentive_per_New_Car_Income"/>
+          <include name="Short_Term_Interest_Cost__Per_new_CARS_expenses"/>
+          <include name="Net_earning_from_POC_Sales_In__per_new_CARS"/>
+          <include name="Finance_Commission_per_New_Car_Income"/>
+          <include name="Insurance_Commission_per_New_Car_Income"/>
+          <include name="Any_other_POC_Sales_Income_per_New_Car_Income"/>
+          <include name="Warranty_Cost_Per_new_CARS_expenses"/>
+        </methods>
+      </class> <!-- dBP_Login_ALL.True_value -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Dbp_all_Test_Cases] -->

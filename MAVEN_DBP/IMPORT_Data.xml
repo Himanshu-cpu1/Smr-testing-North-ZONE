@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DBP">
+  <test name="Import_data">
+    <classes>
+      <class name="Import_DATA_Of_DBP.Import"/>
+      <class name="Import_DATA_Of_DBP.Network_Details"/>
+      <class name="Import_DATA_Of_DBP.STOCKS"/>
+      <class name="Import_DATA_Of_DBP.Discount"/>
+      <class name="Import_DATA_Of_DBP.Intrest_Cost"/>
+      <class name="Import_DATA_Of_DBP.ManpowerCount_TestNG"/>
+      <class name="Import_DATA_Of_DBP.ManpowerCost_TestNG"/>
+      <class name="Import_DATA_Of_DBP.New_Car_TestNG"/>
+      <class name="Import_DATA_Of_DBP.MDS"/>
+      <class name="Import_DATA_Of_DBP.Maruti_Insurance"/>
+      <class name="Import_DATA_Of_DBP.MSGA"/>
+      <class name="Import_DATA_Of_DBP.True_value"/>
+      <class name="Import_DATA_Of_DBP.Spares"/>
+      <class name="Import_DATA_Of_DBP.SERVICE"/>  
+      <class name="Import_DATA_Of_DBP.COMMAN_EXPENSE"/>  
+      <class name="Import_DATA_Of_DBP.KEy_Financials"/>
+       <class name="Import_DATA_Of_DBP.SUBMIT"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

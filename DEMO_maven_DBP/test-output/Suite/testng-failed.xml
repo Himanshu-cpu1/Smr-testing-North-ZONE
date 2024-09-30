@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DBP(failed)">
+    <classes>
+      <class name="extend_Login.MDS">
+        <methods>
+          <include name="Setup"/>
+          <include name="mds"/>
+          <include name="Save_the_Data"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- extend_Login.MDS -->
+      <class name="extend_Login.Discount">
+        <methods>
+          <include name="Consumer_Offer_SPOT_RIPS"/>
+          <include name="Dealer_Discount_Compulsion_Matches_From_STOCKs"/>
+          <include name="Any_Other"/>
+          <include name="Setup"/>
+          <include name="Exchange_Bonus"/>
+          <include name="Total_Discount_Matches_From_STOCKs"/>
+          <include name="discount"/>
+          <include name="Any_Regional_Office_Scheme"/>
+          <include name="ISL_RMK"/>
+          <include name="tearDown"/>
+          <include name="Total_Discount"/>
+        </methods>
+      </class> <!-- extend_Login.Discount -->
+      <class name="extend_Login.ManpowerCost_TestNG">
+        <methods>
+          <include name="MSGA_Total_ManpowerCost"/>
+          <include name="Total_Incentive_DirectMP"/>
+          <include name="Total_Manpower_Cost_Per_Car"/>
+          <include name="True_Value_Total_Salary"/>
+          <include name="Total_Incentive_InDirectMP"/>
+          <include name="MIRenewal_Salary_DirectMP"/>
+          <include name="MIRenewal_Incentive_InDirectMP"/>
+          <include name="ClickOn_ManpowerCount_MIRenewal"/>
+          <include name="tearDown"/>
+          <include name="Corporate_Office_Total_Salary"/>
+          <include name="True_Value_Salary_InDirectMP"/>
+          <include name="Spares_Total_Incentive"/>
+          <include name="TrueValue_Total_InDirect_ManpowerCount"/>
+          <include name="Service_Incentive_InDirectMP"/>
+          <include name="Spares_Total_Direct_ManpowerCount"/>
+          <include name="Service_Salary_DirectMP"/>
+          <include name="Service_Total_ManpowerCost"/>
+          <include name="Spares_Total_InDirect_ManpowerCount"/>
+          <include name="ClickOn_ManpowerCost_Again"/>
+          <include name="MSGA_Incentive_InDirectMP"/>
+          <include name="Service_Salary_InDirectMP"/>
+          <include name="Clear_Data"/>
+          <include name="Spares_Total_ManpowerCost"/>
+          <include name="MIRenewal_Total_ManpowerCost"/>
+          <include name="NewCar_Total_InDirect_ManpowerCount"/>
+          <include name="Corporate_Office_Salary_DirectMP"/>
+          <include name="MDS_Total_Salary"/>
+          <include name="Setup"/>
+          <include name="MSGA_Total_ManpowerCount"/>
+          <include name="Total_Total_ManpowerCost"/>
+          <include name="Total_Direct_ManpowerCount"/>
+          <include name="CommonManpower_Total_Direct_ManpowerCount"/>
+          <include name="Total_Total_Incentive"/>
+          <include name="MI_Renewal_Total_ManpowerCount"/>
+          <include name="MSGA_Salary_InDirectMP"/>
+          <include name="MDS_Total_Incentive"/>
+          <include name="MSGA_Salary_DirectMP"/>
+          <include name="Spares_Incentive_DirectMP"/>
+          <include name="True_Value_Salary_DirectMP"/>
+          <include name="NewCar_Total_Salary"/>
+          <include name="WSBP_Total_InDirect_ManpowerCount"/>
+          <include name="Common_Manpower_Total_ManpowerCount"/>
+          <include name="NewCar_Incentive_DirectMP"/>
+          <include name="Spares_Salary_InDirectMP"/>
+          <include name="Corporate_Office_Total_Incentive"/>
+          <include name="Service_Total_ManpowerCount"/>
+          <include name="Service_Total_Salary"/>
+          <include name="Corporate_Office_Total_ManpowerCost"/>
+          <include name="MSGA_Total_InDirect_ManpowerCount"/>
+          <include name="MSGA_Incentive_DirectMP"/>
+          <include name="MDS_Salary_DirectMP"/>
+          <include name="MSGA_Total_Incentive"/>
+          <include name="MDS_Total_ManpowerCount"/>
+          <include name="MIRenewal_Salary_InDirectMP"/>
+          <include name="ClickOn_ManpowerCount_True_Value"/>
+          <include name="True_Value_Total_Incentive"/>
+          <include name="MIRenewal_Total_Incentive"/>
+          <include name="Total_Total_Salary"/>
+          <include name="Total_Salary_DirectMP"/>
+          <include name="NewCar_Salary_DirectMP"/>
+          <include name="NewCar_Incentive_InDirectMP"/>
+          <include name="MSGA_Total_Direct_ManpowerCount"/>
+          <include name="Total_Salary_InDirectMP"/>
+          <include name="MIRenewal_Incentive_DirectMP"/>
+          <include name="MSGA_Total_Salary"/>
+          <include name="MIRenewal_Total_InDirect_ManpowerCount"/>
+          <include name="ClickOn_ManpowerCount_WBSP"/>
+          <include name="Save_Data"/>
+          <include name="Service_Total_Incentive"/>
+          <include name="TrueValue_Total_Direct_ManpowerCount"/>
+          <include name="CommonManpower_Total_InDirect_ManpowerCount"/>
+          <include name="ClickOn_ManpowerCount_Spares"/>
+          <include name="MDS_Incentive_InDirectMP"/>
+          <include name="Spares_Incentive_InDirectMP"/>
+          <include name="WSBP_Total_Direct_ManpowerCount"/>
+          <include name="NewCar_Total_ManpowerCost"/>
+          <include name="Spares_Total_ManpowerCount"/>
+          <include name="MDS_Total_InDirect_ManpowerCount"/>
+          <include name="Spares_Salary_DirectMP"/>
+          <include name="Corporate_Office_Incentive_DirectMP"/>
+          <include name="Total_Total_ManpowerCount"/>
+          <include name="MDS_Total_ManpowerCost"/>
+          <include name="ClickOn_ManpowerCount_NewCar"/>
+          <include name="Corporate_Office_Salary_InDirectMP"/>
+          <include name="True_Value_Incentive_InDirectMP"/>
+          <include name="MDS_Salary_InDirectMP"/>
+          <include name="True_Value_Incentive_DirectMP"/>
+          <include name="Spares_Total_Salary"/>
+          <include name="MDS_Total_Direct_ManpowerCount"/>
+          <include name="Total_InDirect_ManpowerCount"/>
+          <include name="ManpowerCount"/>
+          <include name="True_Value_Total_ManpowerCost"/>
+          <include name="Corporate_Office_Incentive_InDirectMP"/>
+          <include name="Service_Incentive_DirectMP"/>
+          <include name="ClickOn_New_Car"/>
+          <include name="True_Value_Total_ManpowerCount"/>
+          <include name="NewCar_Total_Direct_ManpowerCount"/>
+          <include name="MIRenewal_Total_Direct_ManpowerCount"/>
+          <include name="MIRenewal_Total_Salary"/>
+          <include name="MDS_Incentive_DirectMP"/>
+          <include name="New_Car_Total_ManpowerCount"/>
+          <include name="ClickOn_ManpowerCount_MDS"/>
+          <include name="ClickOn_ManpowerCount_MSGA"/>
+          <include name="NewCar_Salary_InDirectMP"/>
+          <include name="NewCar_Total_Incentive"/>
+          <include name="ClickOn_ManpowerCount_CommonManpower"/>
+        </methods>
+      </class> <!-- extend_Login.ManpowerCost_TestNG -->
+      <class name="extend_Login.Maruti_Insurance">
+        <methods>
+          <include name="Click_on_Manpower_Cost"/>
+          <include name="Total_MI_Direct_Expense_B_per_new_Cars_Expenses"/>
+          <include name="Total_MI_Direct_Expense_B"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="Click_on_NewCars"/>
+          <include name="clearData"/>
+          <include name="click_on_IntrestCost"/>
+          <include name="Save_the_Data"/>
+          <include name="Per_new_cars__Income_Of_MDS_Enrollment"/>
+          <include name="Insurance_Renewal_Income_Amount"/>
+          <include name="Any_other_Income_amount"/>
+          <include name="Per_New_Car_Expense_Of_ManpowerCost_Salary_and_Incentives"/>
+          <include name="Per_new_cars__Income_Of_Any_other_Income"/>
+          <include name="Per_New_Car_Expense_Of_Any_other_Expense"/>
+          <include name="click_on_MI_again"/>
+          <include name="Total_MI_Renewal_Income_A_Per_New_Cars_Income"/>
+          <include name="Net_Earning_MI_Renewal_A_B"/>
+          <include name="Net_Earning_MI_Renewal_A_B_Per_New_Cars_Income"/>
+          <include name="Per_new_cars__Income_Of_MDS_Incentives"/>
+          <include name="Per_New_Car_Expense_Of_Short_term_Interest_Cost"/>
+          <include name="Insurance_Renewal_Commission_Amount"/>
+          <include name="MI"/>
+          <include name="Any_other_Expense_Amount"/>
+          <include name="Total_MI_Renewal_Income_A"/>
+          <include name="Insurance_Renewal_Income_QTY"/>
+        </methods>
+      </class> <!-- extend_Login.Maruti_Insurance -->
+      <class name="extend_Login.Intrest_Cost">
+        <methods>
+          <include name="Setup"/>
+          <include name="begin"/>
+          <include name="tearDown"/>
+          <include name="Save_the_Data"/>
+        </methods>
+      </class> <!-- extend_Login.Intrest_Cost -->
+    </classes>
+  </test> <!-- DBP(failed) -->
+</suite> <!-- Failed suite [Suite] -->
