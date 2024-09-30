@@ -91,62 +91,72 @@ public class Website_Lead_Report {
 	@BeforeClass
 	public void setup() {
 
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.get("https://dealercrm.co.in/login");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(16, TimeUnit.SECONDS);
+		 WebDriverManager.chromedriver().setup();
+	        driver = new ChromeDriver();
+	        driver.get("https://dealercrm.co.in/login");
+	        driver.manage().window().maximize();
+	        driver.manage().timeouts().implicitlyWait(16, TimeUnit.SECONDS);
 
-	}
+	    }
 
-	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	    @Test(priority = 1)
+	    public void Username() throws InterruptedException {
+	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        WebElement Username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
+	        Username.sendKeys("North2RSM00001");
 
-	@Test(priority = 1)
-	public void Username() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement Username = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
-		Username.sendKeys("North2RSM00001");
+	        Thread.sleep(2000);
+	    }
 
-		Thread.sleep(2000);
-	}
+	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	    @Test(priority = 2)
+	    public void Password() throws InterruptedException {
+	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
+	        password.sendKeys("MarutiCNM#@123");
+	               
+	          Thread.sleep(3000);
+		    	    
+	        WebElement login_Button = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
+	        login_Button.click();
+	      
+	    }
 
-	@Test(priority = 2)
-	public void Password() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement password = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
-		password.sendKeys("MarutiCNM#@123");
-		Thread.sleep(2000);
-	}
+	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	    @Test(priority = 3)
+	    public void Captcha() throws InterruptedException {
+	        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	        
+	      //.................Enter The Captcha ..................................................................
+	        WebElement Image = driver.findElement(By.xpath("(//*[@type=\"text\"])[1]"));
+			
+			String S1 = Image.getAttribute("value");
+			System.out.println("captcha ::"+S1);
+						
+		    Thread.sleep(3000);
+		
+	        WebElement captcha_field = driver.findElement(By.cssSelector("[placeholder=\"Enter the captcha..\"]"));
+		    captcha_field.sendKeys(S1);
+	      //......................................................................	   	    
+	    }
 
-	@Test(priority = 3)
-	public void Login_Button() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement password = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
-		password.click();
-		Thread.sleep(20000);
-	}
+	    // wait for 15 Second  and put the captcha code
 
-	// wait for 15 Second and put the captcha code
+	//.....................................................................................................
 
-	// .....................................................................................................
+	    @Test(priority = 4)
+	    public void SUBMIT_Button() throws InterruptedException {
+	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
+	        Submit.click();
+	        Thread.sleep(15000);
 
-	@Test(priority = 4)
-	public void SUBMIT_Button() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
-		Submit.click();
-		Thread.sleep(5000);
 
-	}
+	    }
 
 	// ..................................................................................................
 	@Test(priority = 5)

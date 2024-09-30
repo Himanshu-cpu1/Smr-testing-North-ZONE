@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR">
+      <class name="My_Leads_Data.All_Fillters_To_Check">
         <methods>
+          <include name="CCP_Fillters_check"/>
+          <include name="Customer_tag_Fillters"/>
           <include name="setup"/>
-          <include name="Compare_PercentReported_Column_ZoneRegionWise_With_DayWise"/>
-          <include name="Compare_PercentReported_Column_ZoneRegionWise_With_WorkshopWise"/>
-          <include name="Compare_PercentReported_Column_ZoneRegionWise_With_DealerParentWise"/>
+          <include name="Service_due_Workshop_Filters"/>
         </methods>
-      </class> <!-- merge_SMR_Central_Zone.HyperLocal_Status_Report_SMR -->
+      </class> <!-- My_Leads_Data.All_Fillters_To_Check -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

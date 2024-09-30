@@ -4,8 +4,6 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -85,77 +83,14 @@ public class HyperLocal_Status_Report_SMR {
 	String day14;
 
 
-	//..................................................................................................
-	 @SuppressWarnings("deprecation")
-	    @BeforeClass
-	    public void setup() {
 
-	        WebDriverManager.chromedriver().setup();
-	        driver = new ChromeDriver();
-	        driver.get("https://dealercrm.co.in/login");
-	        driver.manage().window().maximize();
-	        driver.manage().timeouts().implicitlyWait(16, TimeUnit.SECONDS);
-
-	    }
-
-	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	    @Test(priority = 1)
-	    public void Username() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        WebElement Username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
-	        Username.sendKeys("ZSHArenaC00001");
-
-	        Thread.sleep(2000);
-	    }
-
-	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	    @Test(priority = 2)
-	    public void Password() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
-	        password.sendKeys("Aynjwjq@1");
-	               
-	          Thread.sleep(3000);
-		    	    
-	        WebElement login_Button = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
-	        login_Button.click();
-	        
-	    }
-
-	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	    @Test(priority = 3)
-	    public void Captcha() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-	        
-	      //.................Enter The Captcha ..................................................................
-	        WebElement Image = driver.findElement(By.xpath("(//*[@type=\"text\"])[1]"));
-			
-			String S1 = Image.getAttribute("value");
-			System.out.println("captcha ::"+S1);
-						
-		    Thread.sleep(3000);
-		
-	        WebElement captcha_field = driver.findElement(By.cssSelector("[placeholder=\"Enter the captcha..\"]"));
-		    captcha_field.sendKeys(S1);
-	      //......................................................................	   	    
-	    }
-
-	    // wait for 15 Second  and put the captcha code
-
-	//.....................................................................................................
-
-	    @Test(priority = 4)
-	    public void SUBMIT_Button() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
-	        Submit.click();
-	        Thread.sleep(20000);
-
-
-	    }
+	 //..................................................................................................
+   @SuppressWarnings("static-access")
+   @BeforeClass
+   public void SMR2() throws InterruptedException {
+	   Thread.sleep(5000);
+       this.driver = SMR_BOT_Status_Central.driver;
+   }
 		
 	//..................................................................................................
 		@Test(priority = 5)
@@ -227,6 +162,9 @@ public class HyperLocal_Status_Report_SMR {
 			    	//GET THE VALUES
 			    	
 			    	z1= LeadGenerated.getText();
+	                System.out.println("'Lead Generated' column Value of Zone And Region Wise Tab  In HyperLocal status::: " + z1);
+
+			    	
 			    	z2= LeadAttempted.getText();
 			    	z3= FollowUp.getText();
 			    	z4= TotalConnected.getText();
@@ -326,6 +264,9 @@ public class HyperLocal_Status_Report_SMR {
 			    	//GET THE VALUES
 			    	
 			    	d1= LeadGenerated.getText();
+	                System.out.println("'Lead Generated' column value of Dealer Parent Group Wise Tab In HyperLocal status: ::: " + d1);
+
+			    	
 			    	d2= LeadAttempted.getText();
 			    	d3= FollowUp.getText();
 			    	d4= TotalConnected.getText();
@@ -425,6 +366,9 @@ public class HyperLocal_Status_Report_SMR {
 			    	//GET THE VALUES
 			    	
 			    	w1= LeadGenerated.getText();
+	                System.out.println("'Lead Generated' column value of WorkShop Wise Tab In HyperLocal status: ::: " + w1);
+
+			    	
 			    	w2= LeadAttempted.getText();
 			    	w3= FollowUp.getText();
 			    	w4= TotalConnected.getText();
@@ -526,6 +470,9 @@ public class HyperLocal_Status_Report_SMR {
 			    	//GET THE VALUES
 			    	
 			    	day1= LeadGenerated.getText();
+	                System.out.println("'Lead Generated' column value of Day Wise Tab In HyperLocal status: ::: " + day1);
+
+			    	
 			        day2= LeadAttempted.getText();
 			        day3= FollowUp.getText();
 			        day4= TotalConnected.getText();

@@ -3,24 +3,16 @@ package merge_SMR_Central_Zone;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
-public class SMR_Due_Date_Wise_Central {
+public class SMR_Due_Date_Wise_Central extends LOGIN_Central {
 	
 	public static WebDriver driver;
 	public WebDriverWait wait;
@@ -99,78 +91,16 @@ public class SMR_Due_Date_Wise_Central {
 	String s12;
 	String s13;
 	String s14;
-	//..................................................................................................
-	 @SuppressWarnings("deprecation")
-	    @BeforeClass
-	    public void setup() {
+	
+	
+	 //..................................................................................................
+    @SuppressWarnings("static-access")
+    @BeforeClass
+    public void SMR2() throws InterruptedException {
+    	 Thread.sleep(5000);
+        this.driver = LOGIN_Central.driver;
+    }
 
-	        WebDriverManager.chromedriver().setup();
-	        driver = new ChromeDriver();
-	        driver.get("https://dealercrm.co.in/login");
-	        driver.manage().window().maximize();
-	        driver.manage().timeouts().implicitlyWait(16, TimeUnit.SECONDS);
-
-	    }
-
-	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	    @Test(priority = 1)
-	    public void Username() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        WebElement Username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
-	        Username.sendKeys("ZSHArenaC00001");
-
-	        Thread.sleep(2000);
-	    }
-
-	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	    @Test(priority = 2)
-	    public void Password() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
-	        password.sendKeys("Aynjwjq@1");
-	               
-	          Thread.sleep(3000);
-		    	    
-	        WebElement login_Button = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
-	        login_Button.click();
-	        
-	    }
-
-	    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-	    @Test(priority = 3)
-	    public void Captcha() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-	        
-	      //.................Enter The Captcha ..................................................................
-	        WebElement Image = driver.findElement(By.xpath("(//*[@type=\"text\"])[1]"));
-			
-			String S1 = Image.getAttribute("value");
-			System.out.println("captcha ::"+S1);
-						
-		    Thread.sleep(3000);
-		
-	        WebElement captcha_field = driver.findElement(By.cssSelector("[placeholder=\"Enter the captcha..\"]"));
-		    captcha_field.sendKeys(S1);
-	      //......................................................................	   	    
-	    }
-
-	    // wait for 15 Second  and put the captcha code
-
-	//.....................................................................................................
-
-	    @Test(priority = 4)
-	    public void SUBMIT_Button() throws InterruptedException {
-	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
-	        Submit.click();
-	        Thread.sleep(20000);
-
-
-	    }
-		
 	  //................................................................................................	
 	//..................................................................................................
 		@Test(priority = 5)
@@ -245,6 +175,9 @@ public class SMR_Due_Date_Wise_Central {
 				    	//GET THE VALUES
 				    	
 				    	z1= Data_Assigned.getText();
+				    	
+		                System.out.println("Total Data_Assigned of Zone And Region Wise  In SMR due Date wise ::: " + z1);
+
 				    	z2= ReportedAtOWN.getText();
 				    	z3= ReportedAt_Same_Parent_Other_Outlet.getText();
 				    	z4= Reported_At_Other.getText();
@@ -271,7 +204,7 @@ public class SMR_Due_Date_Wise_Central {
 				                Assert.fail("No Data Found for Zone And Region Wise In SMR due Date wise : " + z1);
 				            } else {
 				                // Print the Total Due value
-				                System.out.println("Total Data_Assigned of Zone And Region Wise  In SMR due Date wise ::: " + z1);
+				            //    System.out.println("Total Data_Assigned of Zone And Region Wise  In SMR due Date wise ::: " + z1);
 				            }
 				            
 				            if(z1==null)

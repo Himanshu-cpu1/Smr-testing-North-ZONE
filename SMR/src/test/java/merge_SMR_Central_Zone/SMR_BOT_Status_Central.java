@@ -141,77 +141,13 @@ public class SMR_BOT_Status_Central {
 	
 	
 	
-	//..................................................................................................
-		 @SuppressWarnings("deprecation")
-		    @BeforeClass
-		    public void setup() {
-
-		        WebDriverManager.chromedriver().setup();
-		        driver = new ChromeDriver();
-		        driver.get("https://dealercrm.co.in/login");
-		        driver.manage().window().maximize();
-		        driver.manage().timeouts().implicitlyWait(16, TimeUnit.SECONDS);
-
-		    }
-
-		    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-		    @Test(priority = 1)
-		    public void Username() throws InterruptedException {
-		        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		        WebElement Username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
-		        Username.sendKeys("ZSHArenaC00001");
-
-		        Thread.sleep(2000);
-		    }
-
-		    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-		    @Test(priority = 2)
-		    public void Password() throws InterruptedException {
-		        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		        WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
-		        password.sendKeys("Aynjwjq@1");
-		               
-		          Thread.sleep(3000);
-			    	    
-		        WebElement login_Button = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
-		        login_Button.click();
-		        
-		    }
-
-		    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-		    @Test(priority = 3)
-		    public void Captcha() throws InterruptedException {
-		        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		        
-		      //.................Enter The Captcha ..................................................................
-		        WebElement Image = driver.findElement(By.xpath("(//*[@type=\"text\"])[1]"));
-				
-				String S1 = Image.getAttribute("value");
-				System.out.println("captcha ::"+S1);
-							
-			    Thread.sleep(3000);
-			
-		        WebElement captcha_field = driver.findElement(By.cssSelector("[placeholder=\"Enter the captcha..\"]"));
-			    captcha_field.sendKeys(S1);
-		      //......................................................................	   	    
-		    }
-
-		    // wait for 15 Second  and put the captcha code
-
-		//.....................................................................................................
-
-		    @Test(priority = 4)
-		    public void SUBMIT_Button() throws InterruptedException {
-		        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		        WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
-		        Submit.click();
-		        Thread.sleep(20000);
-
-
-		    }
+	 //..................................................................................................
+    @SuppressWarnings("static-access")
+    @BeforeClass
+    public void SMR2() throws InterruptedException {
+    	 Thread.sleep(5000);
+        this.driver = SMR_Due_Date_Wise_Central.driver;
+    }
 	//..................................................................................................
 		@Test(priority = 5)
 		public void Click_On_Report() throws InterruptedException {
@@ -457,6 +393,8 @@ public class SMR_BOT_Status_Central {
 					    	   Assert.fail("no data found for Dealer_Parent_Group_Wise of SMR Boot Status");
 					       }
 					      d1 = Totalleads_recived1.getText();
+					      
+					      System.out.println("'Totalleads_recived1' column value of Dealer Parent Group Wise Tab of  SMR BOOT status::: " + d1);
 					      d2 = total_Booking.getText();
 					      d3 = total_reported.getText();
 					      d4 = totallead.getText();
@@ -570,6 +508,8 @@ public class SMR_BOT_Status_Central {
 						      Thread.sleep(4000);	
 						      
 						      w1 = Totalleads_recived1.getText();
+				              System.out.println("'Total leads recieved' column value of WorkShop Wise Tab in SMR BOOT status report::: " + w1);
+
 						      w2 = total_Booking.getText();
 						      w3 = total_reported.getText();
 						      w4 = totallead.getText();
@@ -721,7 +661,7 @@ public class SMR_BOT_Status_Central {
 					        if (totalDispositionValue <= 0 || day1 == null) {
 					            Assert.fail("No Data Found for Workshop Wise   in SMR BOOT status report : " + day1);
 					        } else {
-					         //   System.out.println("'Total Dispositions' column value of Workshop Wise Tab is: " + day1);
+					            System.out.println("'Totalleads_recived' column value of Workshop Wise Tab is: " + day1);
 					        }
 
 					    } catch (Exception e) {
@@ -839,7 +779,7 @@ public class SMR_BOT_Status_Central {
 					        if (totalDispositionValue <= 0 || s1 == null) {
 					            Assert.fail("No Data Found for Service_type  Wise in SMR BOOT status report : " + s1);
 					        } else {
-					           // System.out.println("'Total Dispositions' column value of Service_type Wise Tab is: " + s1);
+					            System.out.println("'Totalleads_recived' column value of Service_type Wise Tab is: " + s1);
 					        }
 
 					    } catch (Exception e) {

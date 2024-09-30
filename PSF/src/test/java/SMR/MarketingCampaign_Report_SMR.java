@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -118,74 +119,98 @@ public class MarketingCampaign_Report_SMR {
 
 	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-	@Test(priority = 1)
-	public void Username() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement Username = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
-		Username.sendKeys("North2RSM00001");
+    @Test(priority = 1)
+    public void Username() throws InterruptedException {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement Username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-0\"]")));
+        Username.sendKeys("North2RSM00001");
 
-		Thread.sleep(2000);
-	}
+        Thread.sleep(2000);
+    }
 
-	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-	@Test(priority = 2)
-	public void Password() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement password = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
-		password.sendKeys("MarutiCNM#@123");
-		Thread.sleep(2000);
-	}
+    @Test(priority = 2)
+    public void Password() throws InterruptedException {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id=\"mat-input-1\"]")));
+        password.sendKeys("MarutiCNM#@123");
+               
+          Thread.sleep(3000);
+	    	    
+        WebElement login_Button = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
+        login_Button.click();
+      
+    }
 
-	// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-	@Test(priority = 3)
-	public void Login_Button() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement password = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[type=\"submit\"]")));
-		password.click();
-		Thread.sleep(20000);
-	}
+    @Test(priority = 3)
+    public void Captcha() throws InterruptedException {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        
+      //.................Enter The Captcha ..................................................................
+        WebElement Image = driver.findElement(By.xpath("(//*[@type=\"text\"])[1]"));
+		
+		String S1 = Image.getAttribute("value");
+		System.out.println("captcha ::"+S1);
+					
+	    Thread.sleep(3000);
+	
+        WebElement captcha_field = driver.findElement(By.cssSelector("[placeholder=\"Enter the captcha..\"]"));
+	    captcha_field.sendKeys(S1);
+      //......................................................................	   	    
+    }
 
-	// wait for 15 Second and put the captcha code
+    // wait for 15 Second  and put the captcha code
 
 //.....................................................................................................
 
-	@Test(priority = 4)
-	public void SUBMIT_Button() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
-		Submit.click();
-		Thread.sleep(3000);
+    @Test(priority = 4)
+    public void SUBMIT_Button() throws InterruptedException {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement Submit = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Submit\"]")));
+        Submit.click();
+        Thread.sleep(10000);
 
-	}
+
+    }
+
 
 //..................................................................................................
 	@Test(priority = 5)
 	public void Click_On_Report() throws InterruptedException {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		
+		  //close the pop up message first
+		   WebElement PopUp= driver.findElement(By.xpath("(//*[@title=\"Close message\"])"));
+		   PopUp.click();
+		   Thread.sleep(3000);
+		   
 		WebElement report = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Reports \"]")));
 		report.click();
-		Thread.sleep(3000);
-
-	}
-
-	// ..............................................................................................................
-//..................................................................................................
-	@Test(priority = 6)
-	public void Click_On_MARKETING_CAMPAIGN_REPORT() throws InterruptedException {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement MarketingCamp = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()=\"Marketing  Campaign \"]")));
-		MarketingCamp.click();
 		Thread.sleep(4000);
 
 	}
 
+	@Test(priority = 6)
+	public void Click_On_MARKETING_CAMPAIGN_REPORT() throws InterruptedException {
+	    // Wait for the side scrollable element (e.g., div or section)
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        
+	    // Scroll within the scrollable section until the "Marketing Campaign" element is visible
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    
+	    // Wait for the "Marketing Campaign" element to be present within the scrollable section
+	    WebElement MarketingCamp = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Marketing Campaign ']")));
+	    
+	    js.executeScript("arguments[0].scrollIntoView(true);", MarketingCamp);
+        Thread.sleep(1000); // Allow time for the scroll to complete
+        MarketingCamp.click();
+        Thread.sleep(4000);
+	}
+	       	       
 //........................................................................................................................
 	@Test(priority = 7)
 	public void Zone_And_Region_Wise_Tab() throws InterruptedException {

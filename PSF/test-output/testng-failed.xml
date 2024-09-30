@@ -3,24 +3,46 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SMR.AutoDialer_SMR_Report">
+      <class name="SMR.MarketingCampaign_Report_SMR">
         <methods>
-          <include name="Data_Verification_Zone_And_Region_Wise"/>
-          <include name="Day_Wise_Tab"/>
-          <include name="Data_Verification_SMRE_Wise_Tab"/>
+          <include name="Compare_PercentReported_Column_ZoneRegionWise_With_DealerParentWise"/>
+          <include name="Compare_PercentReportedForFreeService_Column_DealerParentWise_With_DayWise"/>
+          <include name="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_WorkshopWise"/>
+          <include name="Compare_PercentFreeServicePaidServiceReported_Column_ZoneRegionWise_With_DayWise"/>
+          <include name="Compare_PercentReportedForFreeService_Column_ZoneRegionWise_With_DealerParentWise"/>
+          <include name="Compare_PercentReportedForFreeService_Column_ZoneRegionWise_With_DayWise"/>
+          <include name="Compare_PercentFreeServicePaidServiceReported_Column_ZoneRegionWise_With_DealerParentWise"/>
+          <include name="Compare_PercentReported_Column_DealerParentWise_With_WorkshopWise"/>
           <include name="setup"/>
-          <include name="Dump_Wise_Tab"/>
-          <include name="Workshop_Wise_Tab"/>
-          <include name="Data_Verification_Day_Wise_Tab"/>
-          <include name="Data_Verification_Workshop_Wise_Tab"/>
-          <include name="Dealer_Parent_Group_Wise_Tab"/>
-          <include name="Download_Dump_Wise_Report"/>
+          <include name="Compare_PercentReportedForFreeService_Column_ZoneRegionWise_With_WorkshopWise"/>
+          <include name="Day_Wise_Tab"/>
+          <include name="Compare_PercentReportedForPaidService_Column_DealerParentWise_With_DayWise"/>
+          <include name="Compare_PercentAppointmentBooked_Column_DealerParentWise_With_DayWise"/>
+          <include name="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DealerParentWise"/>
+          <include name="Compare_PercentReportedForFreeService_Column_WorkshopWise_With_DayWise"/>
+          <include name="Compare_PercentReported_Column_WorkshopWise_With_DayWise"/>
           <include name="Zone_And_Region_Wise_Tab"/>
-          <include name="Data_Verification_Dump_Wise_Tab"/>
-          <include name="SMRE_Wise_Tab"/>
-          <include name="Data_Verification_Dealer_Parent_Group_Wise_Tab"/>
+          <include name="Compare_PercentReported_Column_DealerParentWise_With_DayWise"/>
+          <include name="Compare_PercentFreeServicePaidServiceReported_Column_ZoneRegionWise_With_WorkshopWise"/>
+          <include name="Compare_PercentReportedForPaidService_Column_DealerParentWise_With_WorkshopWise"/>
+          <include name="Compare_PercentReportedForPaidService_Column_WorkshopWise_With_DayWise"/>
+          <include name="Compare_PercentAppointmentBooked_Column_ZoneRegionWise_With_DayWise"/>
+          <include name="Compare_PercentReportedForPaidService_Column_ZoneRegionWise_With_WorkshopWise"/>
+          <include name="Compare_PercentAppointmentBooked_Column_DealerParentWise_With_WorkshopWise"/>
+          <include name="Compare_PercentAppointmentBooked_Column_WorkshopWise_With_DayWise"/>
+          <include name="Compare_PercentFreeServicePaidServiceReported_Column_DealerParentWise_With_DayWise"/>
+          <include name="Compare_PercentReported_Column_ZoneRegionWise_With_DayWise"/>
+          <include name="Compare_PercentReported_Column_ZoneRegionWise_With_WorkshopWise"/>
+          <include name="Click_On_MARKETING_CAMPAIGN_REPORT"/>
+          <include name="Compare_PercentFreeServicePaidServiceReported_Column_DealerParentWise_With_WorkshopWise"/>
+          <include name="Compare_PercentReportedForPaidService_Column_ZoneRegionWise_With_DealerParentWise"/>
+          <include name="Compare_PercentFreeServicePaidServiceReported_Column_WorkshopWise_With_DayWise"/>
+          <include name="Dealer_Parent_Group_Wise_Tab"/>
+          <include name="Compare_PercentReportedForFreeService_Column_DealerParentWise_With_WorkshopWise"/>
+          <include name="Compare_PercentReportedForPaidService_Column_ZoneRegionWise_With_DayWise"/>
+          <include name="WorkShop_Wise_Tab"/>
         </methods>
-      </class> <!-- SMR.AutoDialer_SMR_Report -->
+      </class> <!-- SMR.MarketingCampaign_Report_SMR -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
